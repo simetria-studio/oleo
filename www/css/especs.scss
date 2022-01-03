@@ -1,0 +1,42 @@
+@import url("busca.min.css");
+@import url("style.min.css");
+
+span,
+h4,
+h6,
+p {
+  color: #ccc;
+}
+.modelo {
+  width: 300px;
+  margin: 0 auto;
+}
+.card-bg {
+  /* From https://css.glass */
+  background: rgba(0, 255, 1, 0.04);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(0, 255, 1, 0.48);
+  padding: 10px 10px;
+}
+
+.card-bg .card-item {
+  font-size: 14px;
+}
+.oleo {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 150px));
+  grid-gap: 15px;
+}
+.oleo .card-bg {
+  height: auto;
+}
+.avisos {
+  width: 250px;
+  margin: 20px auto;
+  margin-bottom: 60px;
+  text-align: center;
+}
